@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHE Manager - Inspections</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>SHE Manager - Inspection Dashboard</h1>
+
+  <section id="create-inspection">
+    <h2>Create Inspection Task</h2>
+    <form id="inspection-form">
+      <label>
+        Title: <input type="text" id="title" required>
+      </label>
+      <label>
+        Type:
+        <select id="type">
+          <option value="manual">Manual</option>
+          <option value="monthly">Monthly</option>
+        </select>
+      </label>
+      <button type="submit">Add Inspection</button>
+    </form>
+  </section>
+
+  <section id="inspection-list">
+    <h2>Current Inspections</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Type</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="inspections-tbody"></tbody>
+    </table>
+  </section>
+
+  <section id="reports">
+    <h2>Generated Reports</h2>
+    <pre id="reports-log"></pre>
+  </section>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
