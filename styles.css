@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin: 8px 0;
+}
+
+form input, form select {
+  margin-left: 8px;
+}
+
+button {
+  margin-top: 8px;
+  padding: 5px 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+pre {
+  background: #eee;
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
